@@ -29,11 +29,18 @@ public class Person {
     @Column(name = "channel_url")
     private String channelUrl;
 
+    @Column(name = "subscribers")
+    private String subscribers;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "content_type")
+    private ContentType contentType;
+
     @Enumerated(EnumType.STRING)
     @Column(name = "country")
     private Country country;
 
-    @OneToMany(mappedBy = "person")
+    @OneToMany(mappedBy = "person", fetch = FetchType.EAGER)
     private List<Image> images;
 
 }
