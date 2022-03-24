@@ -28,6 +28,23 @@ INSERT INTO persons VALUES (22, 'KICKDOWN', 'https://www.youtube.com/c/KICKDOWN0
 INSERT INTO persons VALUES (23, 'iling show', 'https://www.youtube.com/c/ilingshow', 'AUTO_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'iling show', 4, '0,8');
 INSERT INTO persons VALUES (24, 'Дима Гордей', 'https://www.youtube.com/user/dima91gordey', 'AUTO_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Діма Гордій', 2, '6,56');
 
+-- Entertainment content Authors --
+
+INSERT INTO persons VALUES (25, 'HiMan', 'https://www.youtube.com/c/HiBestMan', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Андрей Ширгин', 1, '17,5');
+INSERT INTO persons VALUES (26, 'TheBrianMaps', 'https://www.youtube.com/c/TheBrianMaps', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Максиим Тарасенко', 2, '16,3');
+INSERT INTO persons VALUES (27, 'It`s Mamix', 'https://www.youtube.com/channel/UCSF6ewY9LS8GnbphwvnZpUg', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Максим Монахов', 1, '13,9');
+INSERT INTO persons VALUES (28, 'ЛИТВИН', 'https://www.youtube.com/channel/UCy6p8krDY33mDRMt19YrlXg', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Міша Літвін', 1, '8,72');
+INSERT INTO persons VALUES (29, 'Приятный Ильдар', 'https://www.youtube.com/c/pleasantildar', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', ' Ільдар Хабібуллін', 5, '3,56');
+INSERT INTO persons VALUES (30, 'AdamThomasMoran', 'https://www.youtube.com/c/adamthomasmoran', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Максим Голополосов', 2, '10,6');
+INSERT INTO persons VALUES (31, 'Edward Bil', 'https://www.youtube.com/c/EdwardBilCrazyPranks', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Едвард Біл', 3, '4,4');
+INSERT INTO persons VALUES (32, 'DAVA', 'https://www.youtube.com/channel/UCbh7BxJWCMnWLwJ-traa6Wg', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Давид Манукян', 3, '4,4');
+INSERT INTO persons VALUES (33, 'Comedy Club', 'https://www.youtube.com/channel/UCsIEFXNO4bxh0hW3-_z2-0g', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Comedy Club', 4, '4,2');
+INSERT INTO persons VALUES (34, 'Илья Соболев', 'https://www.youtube.com/c/СоболевИлья', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Ілля Соболєв', 3, '1,51');
+INSERT INTO persons VALUES (35, 'Karina Kasparyants', 'https://www.youtube.com/c/KarinaKasparyants', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Каріна Каспарянц', 4, '1,13');
+INSERT INTO persons VALUES (36, 'Sasha Spilberg', 'https://www.youtube.com/user/SaySasha', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Саша Спілберг', 2, '6,4');
+INSERT INTO persons VALUES (37, 'TheKateClapp', 'https://www.youtube.com/c/TheKateClapp', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Катя Клеп', 2, '7,11');
+INSERT INTO persons VALUES (38, 'НАСТЯ ИВЛЕЕВА', 'https://www.youtube.com/c/АнастасияИвлеева', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Настя Івлеєва', 4, '4,45');
+INSERT INTO persons VALUES (39, 'А4', 'https://www.youtube.com/channel/UC2tsySbe9TNrI-xh2lximHA', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Влад Бумага', 1, '38,9');
 
 -- Images of Technical Authors --
 
@@ -58,4 +75,22 @@ INSERT INTO images VALUES (21, 'ASATA channel', 'https://i.imgur.com/iDnEFwR.png
 INSERT INTO images VALUES (22, 'KICKDOWN', 'https://i.imgur.com/xX43Y7v.png', 22);
 INSERT INTO images VALUES (23, 'iling show', 'https://i.imgur.com/sV8swqa.png', 23);
 INSERT INTO images VALUES (24, 'Дима Гордей', 'https://i.imgur.com/BxYTL6T.png', 24);
+
+-- Images of Entertainment Authors --
+
+INSERT INTO images VALUES (25, 'HiMan', 'https://i.imgur.com/PUZ2x7I.png', 25);
+INSERT INTO images VALUES (26, 'TheBrianMaps', 'https://i.imgur.com/5UTp8AB.png', 26);
+INSERT INTO images VALUES (27, 'It`s Mamix', 'https://i.imgur.com/B6EOd9Y.jpg', 27);
+INSERT INTO images VALUES (28, 'ЛИТВИН', 'https://i.imgur.com/ncrean6.png', 28);
+INSERT INTO images VALUES (29, 'Приятный Ильдар', 'https://i.imgur.com/iiwrwYk.png', 29);
+INSERT INTO images VALUES (30, 'AdamThomasMoran', 'https://i.imgur.com/N0nG5rb.jpg', 30);
+INSERT INTO images VALUES (31, 'Edward Bil', 'https://i.imgur.com/WglzymC.png', 31);
+INSERT INTO images VALUES (32, 'DAVA', 'https://i.imgur.com/PWT42UZ.png', 32);
+INSERT INTO images VALUES (33, 'Comedy Club', 'https://i.imgur.com/cltRWKc.png', 33);
+INSERT INTO images VALUES (34, 'Илья Соболев', 'https://i.imgur.com/6rYtSaI.png', 34);
+INSERT INTO images VALUES (35, 'Karina Kasparyants', 'https://i.imgur.com/5SBIkHp.png', 35);
+INSERT INTO images VALUES (36, 'Sasha Spilberg', 'https://i.imgur.com/Rvmf7pn.png', 36);
+INSERT INTO images VALUES (37, 'TheKateClapp', 'https://i.imgur.com/BEBOEgX.png', 37);
+INSERT INTO images VALUES (38, 'НАСТЯ ИВЛЕЕВА', 'https://i.imgur.com/dfPbkUV.png', 38);
+INSERT INTO images VALUES (39, 'А4', 'https://i.imgur.com/cQHwqeh.png', 39);
 
