@@ -16,7 +16,7 @@
         <div class="row justify-content-center">
             <div class="col-5 col-md-3 col-xxl-2 px-4 text-center pt-2">
                 <a th:href="@{/}">
-                    <img class="d-block w-100" th:src="@{logo.png}">
+                    <img class="d-block w-100" th:src="@{https://i.imgur.com/j7Y75ZP.png}">
                 </a>
             </div>
         </div>
@@ -36,7 +36,7 @@
                     <button class="nav-link fs-1 tab-item" id="technic-tab" data-bs-toggle="tab"
                             data-bs-target="#technic"
                             type="button"
-                            role="tab" aria-controls="technic" aria-selected="true">ТЕХНО
+                            role="tab" aria-controls="technic" aria-selected="true">ТЕХНОЛОГІЇ
                     </button>
                 </li>
                 <li class="nav-item px-4" role="presentation">
@@ -78,13 +78,13 @@
                                     <h3 class="mb-0 channel-name" th:text="${person.channelName}"></h3>
                                     <div class="mb-2 text-muted full-name" th:text="${person.name}"></div>
                                     <p class="card-text mb-auto description-name" th:text="${person.description}"></p>
-                                    <a href="#" class="mt-3 text-muted text-decoration-none youtube-link">
-                                        <img th:src="@{youtube-link.png}" class="me-1 pb-1 rounded" width="40">
+                                    <a th:href="${person.channelUrl}" target="_blank" class="mt-3 text-muted text-decoration-none youtube-link">
+                                        <img th:src="@{https://i.imgur.com/f24qffV.png}" class="me-1 pb-1 rounded" width="40">
                                         <span th:text="${person.subscribers}"></span>
                                     </a>
                                 </div>
                                 <div class="col-md-6 ps-md-4 p-md-0 p-4 pt-0">
-                                    <img th:src="${person.images.get(0).url}" class="w-100"
+                                    <img th:src="${person.images.get(0).url}" class="w-100 person-card"
                                          th:alt="${person.images.get(0).description}">
                                 </div>
                             </div>
@@ -103,13 +103,13 @@
                                     <h3 class="mb-0 channel-name" th:text="${person.channelName}"></h3>
                                     <div class="mb-2 text-muted full-name" th:text="${person.name}"></div>
                                     <p class="card-text mb-auto description-name" th:text="${person.description}"></p>
-                                    <a href="#" class="mt-3 text-muted text-decoration-none youtube-link">
-                                        <img th:src="@{youtube-link.png}" class="me-1 pb-1 rounded" width="40">
+                                    <a th:href="${person.channelUrl}" target="_blank" class="mt-3 text-muted text-decoration-none youtube-link">
+                                        <img th:src="@{https://i.imgur.com/MgTdJ4M.png}" class="me-1 pb-1 rounded" width="40">
                                         <span th:text="${person.subscribers}"></span>
                                     </a>
                                 </div>
                                 <div class="col-md-6 ps-md-4 p-md-0 p-4 pt-0">
-                                    <img th:src="${person.images.get(0).url}" class="w-100"
+                                    <img th:src="${person.images.get(0).url}" class="w-100 person-card"
                                          th:alt="${person.images.get(0).description}">
                                 </div>
                             </div>
@@ -128,13 +128,13 @@
                                     <h3 class="mb-0 channel-name" th:text="${person.channelName}"></h3>
                                     <div class="mb-2 text-muted full-name" th:text="${person.name}"></div>
                                     <p class="card-text mb-auto description-name" th:text="${person.description}"></p>
-                                    <a href="#" class="mt-3 text-muted text-decoration-none youtube-link">
-                                        <img th:src="@{youtube-link.png}" class="me-1 pb-1 rounded" width="40">
+                                    <a th:href="${person.channelUrl}" target="_blank" class="mt-3 text-muted text-decoration-none youtube-link">
+                                        <img th:src="@{https://i.imgur.com/MgTdJ4M.png}" class="me-1 pb-1 rounded" width="40">
                                         <span th:text="${person.subscribers}"></span>
                                     </a>
                                 </div>
                                 <div class="col-md-6 ps-md-4 p-md-0 p-4 pt-0">
-                                    <img th:src="${person.images.get(0).url}" class="w-100"
+                                    <img th:src="${person.images.get(0).url}" class="w-100 person-card"
                                          th:alt="${person.images.get(0).description}">
                                 </div>
                             </div>
@@ -153,13 +153,13 @@
                                     <h3 class="mb-0 channel-name" th:text="${person.channelName}"></h3>
                                     <div class="mb-2 text-muted full-name" th:text="${person.name}"></div>
                                     <p class="card-text mb-auto description-name" th:text="${person.description}"></p>
-                                    <a href="#" class="mt-3 text-muted text-decoration-none youtube-link">
-                                        <img th:src="@{youtube-link.png}" class="me-1 pb-1 rounded" width="40">
+                                    <a th:href="${person.channelUrl}" target="_blank" class="mt-3 text-muted text-decoration-none youtube-link">
+                                        <img th:src="@{https://i.imgur.com/MgTdJ4M.png}" class="me-1 pb-1 rounded" width="40">
                                         <span th:text="${person.subscribers}"></span>
                                     </a>
                                 </div>
                                 <div class="col-md-6 ps-md-4 p-md-0 p-4 pt-0">
-                                    <img th:src="${person.images.get(0).url}" class="w-100"
+                                    <img th:src="${person.images.get(0).url}" class="w-100 person-card"
                                          th:alt="${person.images.get(0).description}">
                                 </div>
                             </div>
@@ -178,13 +178,13 @@
                                     <h3 class="mb-0 channel-name" th:text="${person.channelName}"></h3>
                                     <div class="mb-2 text-muted full-name" th:text="${person.name}"></div>
                                     <p class="card-text mb-auto description-name" th:text="${person.description}"></p>
-                                    <a href="#" class="mt-3 text-muted text-decoration-none youtube-link">
-                                        <img th:src="@{youtube-link.png}" class="me-1 pb-1 rounded" width="40">
+                                    <a th:href="${person.channelUrl}" target="_blank" class="mt-3 text-muted text-decoration-none youtube-link">
+                                        <img th:src="@{https://i.imgur.com/MgTdJ4M.png}" class="me-1 pb-1 rounded" width="40">
                                         <span th:text="${person.subscribers}"></span>
                                     </a>
                                 </div>
                                 <div class="col-md-6 ps-md-4 p-md-0 p-4 pt-0">
-                                    <img th:src="${person.images.get(0).url}" class="w-100"
+                                    <img th:src="${person.images.get(0).url}" class="w-100 person-card"
                                          th:alt="${person.images.get(0).description}">
                                 </div>
                             </div>
@@ -203,13 +203,13 @@
                                     <h3 class="mb-0 channel-name" th:text="${person.channelName}"></h3>
                                     <div class="mb-2 text-muted full-name" th:text="${person.name}"></div>
                                     <p class="card-text mb-auto description-name" th:text="${person.description}"></p>
-                                    <a href="#" class="mt-3 text-muted text-decoration-none youtube-link">
-                                        <img th:src="@{youtube-link.png}" class="me-1 pb-1 rounded" width="40">
+                                    <a th:href="${person.channelUrl}" target="_blank" class="mt-3 text-muted text-decoration-none youtube-link">
+                                        <img th:src="@{https://i.imgur.com/MgTdJ4M.png}" class="me-1 pb-1 rounded" width="40">
                                         <span th:text="${person.subscribers}"></span>
                                     </a>
                                 </div>
                                 <div class="col-md-6 ps-md-4 p-md-0 p-4 pt-0">
-                                    <img th:src="${person.images.get(0).url}" class="w-100"
+                                    <img th:src="${person.images.get(0).url}" class="w-100 person-card"
                                          th:alt="${person.images.get(0).description}">
                                 </div>
                             </div>

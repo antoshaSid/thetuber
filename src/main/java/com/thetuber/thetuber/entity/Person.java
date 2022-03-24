@@ -17,6 +17,9 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
+    @Column(name = "priority")
+    private Integer priority;
+
     @Column(name = "person_name")
     private String name;
 

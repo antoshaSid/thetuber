@@ -24,27 +24,27 @@ public class PersonServiceImpl implements PersonService {
         Map<String, List<List<Person>>> personListWithContentType = new HashMap<>();
         personListWithContentType.put(
                 TECHNIC_CONTENT.toString(),
-                gridList(personRepository.findPersonByContentType(TECHNIC_CONTENT))
+                gridList(personRepository.findPersonByContentTypeOrderByPriority(TECHNIC_CONTENT))
         );
         personListWithContentType.put(
                 AUTO_CONTENT.toString(),
-                gridList(personRepository.findPersonByContentType(AUTO_CONTENT))
+                gridList(personRepository.findPersonByContentTypeOrderByPriority(AUTO_CONTENT))
         );
         personListWithContentType.put(
                 GAME_CONTENT.toString(),
-                gridList(personRepository.findPersonByContentType(GAME_CONTENT))
+                gridList(personRepository.findPersonByContentTypeOrderByPriority(GAME_CONTENT))
         );
         personListWithContentType.put(
                 ENTERTAINMENT_CONTENT.toString(),
-                gridList(personRepository.findPersonByContentType(ENTERTAINMENT_CONTENT))
+                gridList(personRepository.findPersonByContentTypeOrderByPriority(ENTERTAINMENT_CONTENT))
         );
         personListWithContentType.put(
                 TRAVEL_CONTENT.toString(),
-                gridList(personRepository.findPersonByContentType(TRAVEL_CONTENT))
+                gridList(personRepository.findPersonByContentTypeOrderByPriority(TRAVEL_CONTENT))
         );
         personListWithContentType.put(
                 OTHERS.toString(),
-                gridList(personRepository.findAll())
+                gridList(personRepository.findByOrderByPriority())
         );
 
         return personListWithContentType;

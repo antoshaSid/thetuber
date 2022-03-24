@@ -10,6 +10,8 @@ import java.util.List;
 @Repository
 public interface PersonRepository extends JpaRepository<Person, Integer> {
 
-    List<Person> findPersonByContentType(ContentType contentType);
+    List<Person> findByOrderByPriority();
+
+    List<Person> findPersonByContentTypeOrderByPriority(ContentType contentType);
 
 }
