@@ -96,7 +96,7 @@ INSERT INTO images VALUES (20, 'DSC OFF', 'https://i.imgur.com/oV4XR5a.jpg', 20)
 INSERT INTO images VALUES (21, 'ASATA channel', 'https://i.imgur.com/W9qheFW.jpg', 21);
 INSERT INTO images VALUES (22, 'KICKDOWN', 'https://i.imgur.com/rxuztpl.jpg', 22);
 INSERT INTO images VALUES (23, 'iling show', 'https://i.imgur.com/6aexR09.jpg', 23);
-INSERT INTO images VALUES (24, 'Дима Гордей', '', 24);
+INSERT INTO images VALUES (24, 'Дима Гордей', 'https://i.imgur.com/UboetH2.png', 24);
 
 -- Images of Entertainment Authors --
 
