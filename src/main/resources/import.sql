@@ -46,51 +46,95 @@ INSERT INTO persons VALUES (37, 'TheKateClapp', 'https://www.youtube.com/c/TheKa
 INSERT INTO persons VALUES (38, 'НАСТЯ ИВЛЕЕВА', 'https://www.youtube.com/c/АнастасияИвлеева', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Настя Івлеєва', 4, '4,45');
 INSERT INTO persons VALUES (39, 'А4', 'https://www.youtube.com/channel/UC2tsySbe9TNrI-xh2lximHA', 'ENTERTAINMENT_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Влад Бумага', 1, '38,9');
 
+-- Game content Authors --
+
+INSERT INTO persons VALUES (40, 'Marmok', 'https://www.youtube.com/c/MrMarmok', 'GAME_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Марін Мокану', 1, '17,2');
+INSERT INTO persons VALUES (41, 'Kuplinov ► Play', 'https://www.youtube.com/c/kuplinovplay', 'GAME_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Дмитро Куплінов', 1, '13,2');
+INSERT INTO persons VALUES (42, 'TheBrainDit', 'https://www.youtube.com/user/thebraindit', 'GAME_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Олег Брейн', 1, '8,36');
+INSERT INTO persons VALUES (43, 'Coffi Channel', 'https://www.youtube.com/c/CoffiChannel', 'GAME_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Олег Лобацевич', 2, '8,03');
+INSERT INTO persons VALUES (44, 'Jove', 'https://www.youtube.com/c/TheJoves', 'GAME_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Констянтин Ладанін', 3, '3,39');
+INSERT INTO persons VALUES (45, 'TheWarpath', 'https://www.youtube.com/c/warpath031', 'GAME_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Кирило Варпач', 2, '4,45');
+INSERT INTO persons VALUES (46, 'EugeneSagaz', 'https://www.youtube.com/user/eugenesagaz', 'GAME_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Євгеній Сагаз', 2, '4,87');
+INSERT INTO persons VALUES (47, 'Joe Speen', 'https://www.youtube.com/c/JoeSpeen', 'GAME_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Дмитро', 4, '1,58');
+INSERT INTO persons VALUES (48, 'Amway921', 'https://www.youtube.com/c/Amway921WOT', 'GAME_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Павло Суханов', 5, '2,16');
+
+-- Travelling content Authors --
+
+INSERT INTO persons VALUES (49, 'Alexander Kondrashov', 'https://www.youtube.com/c/AlexanderKondrashov', 'TRAVEL_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Олекснадр Кондрашов', 1, '1,53');
+INSERT INTO persons VALUES (50, 'ПОЕХАВШИЙ', 'https://www.youtube.com/c/VenoRu', 'TRAVEL_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Михайло Ронкаінен', 2, '0,6');
+INSERT INTO persons VALUES (51, 'Art Bouquet', 'https://www.youtube.com/c/ArtBouquet', 'TRAVEL_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Паша та Люба', 4, '0,1');
+INSERT INTO persons VALUES (52, 'Elnar Mansurov', 'https://www.youtube.com/c/ElnarMansurov', 'TRAVEL_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Ельнар Мансуров', 5, '0,005');
+INSERT INTO persons VALUES (53, 'Своим Ходом', 'https://www.youtube.com/channel/UCBOCc9WU8ILvk8brsH7ey5w', 'TRAVEL_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Віталік і Ліза', 3, '0,4');
+INSERT INTO persons VALUES (54, 'Богдан Булычёв', 'https://www.youtube.com/c/RGOEXPORU', 'TRAVEL_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Богдан Булічев', 2, '0,5');
+INSERT INTO persons VALUES (55, 'elivosk', 'https://www.youtube.com/c/elivosk', 'TRAVEL_CONTENT', 'RU', 'Нахабно ігнорує війну в Україні, незважаючи на свою впливовість та можливість доносити достовірну інформацію', 'Ілля Воскресенський', 4, '0,1');
+
 -- Images of Technical Authors --
 
-INSERT INTO images VALUES (1, 'Wylsacom', 'https://i.imgur.com/1WxigTC.png', 1);
-INSERT INTO images VALUES (2, 'Ай, Как Просто!', 'https://i.imgur.com/R3ycW46.png', 2);
-INSERT INTO images VALUES (3, 'BIG GEEK', 'https://i.imgur.com/56ic8UV.png', 3);
-INSERT INTO images VALUES (4, 'Стинт', 'https://i.imgur.com/p1LW2tw.png', 4);
-INSERT INTO images VALUES (5, 'BRIG man', 'https://i.imgur.com/YBe80tn.png', 5);
-INSERT INTO images VALUES (6, '808', 'https://i.imgur.com/0XwbbOv.png', 6);
-INSERT INTO images VALUES (7, 'SlivkiShow', 'https://i.imgur.com/srIKy1n.png', 7);
-INSERT INTO images VALUES (8, 'AdMe.ru', 'https://i.imgur.com/qzP3jkB.png', 8);
-INSERT INTO images VALUES (9, 'GEO', 'https://i.imgur.com/MMsQDaw.png', 9);
-INSERT INTO images VALUES (10, 'MENTAL', 'https://i.imgur.com/60yHKFF.png', 10);
+INSERT INTO images VALUES (1, 'Wylsacom', 'https://i.imgur.com/tyt8Q4D.jpg', 1);
+INSERT INTO images VALUES (2, 'Ай, Как Просто!', 'https://i.imgur.com/uCulduf.jpg', 2);
+INSERT INTO images VALUES (3, 'BIG GEEK', 'https://i.imgur.com/hU7jujV.jpg', 3);
+INSERT INTO images VALUES (4, 'Стинт', 'https://i.imgur.com/n5B1ghd.jpg', 4);
+INSERT INTO images VALUES (5, 'BRIG man', 'https://i.imgur.com/8Te9VAr.jpg', 5);
+INSERT INTO images VALUES (6, '808', 'https://i.imgur.com/nns4QoS.jpg', 6);
+INSERT INTO images VALUES (7, 'SlivkiShow', 'https://i.imgur.com/8oeiaDP.jpg', 7);
+INSERT INTO images VALUES (8, 'AdMe.ru', 'https://i.imgur.com/18zDTkw.jpg', 8);
+INSERT INTO images VALUES (9, 'GEO', 'https://i.imgur.com/4tvTWA6.jpg', 9);
+INSERT INTO images VALUES (10, 'MENTAL', 'https://i.imgur.com/gwhDPKo.jpg', 10);
 
 -- Images of Auto Authors --
 
-INSERT INTO images VALUES (11, 'smotraTV', 'https://i.imgur.com/j5PczQd.png', 11);
-INSERT INTO images VALUES (12, 'Жекич Дубровский', 'https://i.imgur.com/GOS2HQf.png', 12);
-INSERT INTO images VALUES (13, 'Автосалон Синдиката', 'https://i.imgur.com/GXUVXp5.png', 13);
-INSERT INTO images VALUES (14, 'СтопХам', 'https://i.imgur.com/kypWjhi.png', 14);
-INSERT INTO images VALUES (15, 'Асафьев Стас', 'https://i.imgur.com/BUoTuUn.png', 15);
-INSERT INTO images VALUES (16, 'Bulkin', 'https://i.imgur.com/gtCzPnm.png', 16);
-INSERT INTO images VALUES (17, 'AcademeG', 'https://i.imgur.com/hOKrvNt.png', 17);
-INSERT INTO images VALUES (18, 'ИЛЬДАР АВТО-ПОДБОР', 'https://i.imgur.com/pEcwuLo.png', 18);
-INSERT INTO images VALUES (19, 'Чердак', 'https://i.imgur.com/HiDzpAW.png', 19);
-INSERT INTO images VALUES (20, 'DSC OFF', 'https://i.imgur.com/sLgHnfC.png', 20);
-INSERT INTO images VALUES (21, 'ASATA channel', 'https://i.imgur.com/iDnEFwR.png', 21);
-INSERT INTO images VALUES (22, 'KICKDOWN', 'https://i.imgur.com/xX43Y7v.png', 22);
-INSERT INTO images VALUES (23, 'iling show', 'https://i.imgur.com/sV8swqa.png', 23);
-INSERT INTO images VALUES (24, 'Дима Гордей', 'https://i.imgur.com/BxYTL6T.png', 24);
+INSERT INTO images VALUES (11, 'smotraTV', 'https://i.imgur.com/RIXXS0Z.jpg', 11);
+INSERT INTO images VALUES (12, 'Жекич Дубровский', 'https://i.imgur.com/NJP8YDP.jpg', 12);
+INSERT INTO images VALUES (13, 'Автосалон Синдиката', 'https://i.imgur.com/JHFVFda.jpg', 13);
+INSERT INTO images VALUES (14, 'СтопХам', 'https://i.imgur.com/DIK12T5.jpg', 14);
+INSERT INTO images VALUES (15, 'Асафьев Стас', 'https://i.imgur.com/8q5XlHh.jpg', 15);
+INSERT INTO images VALUES (16, 'Bulkin', 'https://i.imgur.com/3IOPkdB.jpg', 16);
+INSERT INTO images VALUES (17, 'AcademeG', 'https://i.imgur.com/IryA13Q.jpg', 17);
+INSERT INTO images VALUES (18, 'ИЛЬДАР АВТО-ПОДБОР', 'https://i.imgur.com/Byk7rOF.jpg', 18);
+INSERT INTO images VALUES (19, 'Чердак', 'https://i.imgur.com/XNmHaRz.jpg', 19);
+INSERT INTO images VALUES (20, 'DSC OFF', 'https://i.imgur.com/oV4XR5a.jpg', 20);
+INSERT INTO images VALUES (21, 'ASATA channel', 'https://i.imgur.com/W9qheFW.jpg', 21);
+INSERT INTO images VALUES (22, 'KICKDOWN', 'https://i.imgur.com/rxuztpl.jpg', 22);
+INSERT INTO images VALUES (23, 'iling show', 'https://i.imgur.com/6aexR09.jpg', 23);
+INSERT INTO images VALUES (24, 'Дима Гордей', '', 24);
 
 -- Images of Entertainment Authors --
 
-INSERT INTO images VALUES (25, 'HiMan', 'https://i.imgur.com/PUZ2x7I.png', 25);
-INSERT INTO images VALUES (26, 'TheBrianMaps', 'https://i.imgur.com/5UTp8AB.png', 26);
-INSERT INTO images VALUES (27, 'It`s Mamix', 'https://i.imgur.com/B6EOd9Y.jpg', 27);
-INSERT INTO images VALUES (28, 'ЛИТВИН', 'https://i.imgur.com/ncrean6.png', 28);
-INSERT INTO images VALUES (29, 'Приятный Ильдар', 'https://i.imgur.com/iiwrwYk.png', 29);
-INSERT INTO images VALUES (30, 'AdamThomasMoran', 'https://i.imgur.com/N0nG5rb.jpg', 30);
-INSERT INTO images VALUES (31, 'Edward Bil', 'https://i.imgur.com/WglzymC.png', 31);
-INSERT INTO images VALUES (32, 'DAVA', 'https://i.imgur.com/PWT42UZ.png', 32);
-INSERT INTO images VALUES (33, 'Comedy Club', 'https://i.imgur.com/cltRWKc.png', 33);
-INSERT INTO images VALUES (34, 'Илья Соболев', 'https://i.imgur.com/6rYtSaI.png', 34);
-INSERT INTO images VALUES (35, 'Karina Kasparyants', 'https://i.imgur.com/5SBIkHp.png', 35);
-INSERT INTO images VALUES (36, 'Sasha Spilberg', 'https://i.imgur.com/Rvmf7pn.png', 36);
-INSERT INTO images VALUES (37, 'TheKateClapp', 'https://i.imgur.com/BEBOEgX.png', 37);
-INSERT INTO images VALUES (38, 'НАСТЯ ИВЛЕЕВА', 'https://i.imgur.com/dfPbkUV.png', 38);
-INSERT INTO images VALUES (39, 'А4', 'https://i.imgur.com/cQHwqeh.png', 39);
+INSERT INTO images VALUES (25, 'HiMan', 'https://i.imgur.com/IE5poTl.jpg', 25);
+INSERT INTO images VALUES (26, 'TheBrianMaps', 'https://i.imgur.com/M8tisOR.jpg', 26);
+INSERT INTO images VALUES (27, 'It`s Mamix', 'https://i.imgur.com/k8BR8Uz.jpg', 27);
+INSERT INTO images VALUES (28, 'ЛИТВИН', 'https://i.imgur.com/bObGbbc.jpg', 28);
+INSERT INTO images VALUES (29, 'Приятный Ильдар', 'https://i.imgur.com/kKUa2Id.jpg', 29);
+INSERT INTO images VALUES (30, 'AdamThomasMoran', 'https://i.imgur.com/0ZT61bk.jpg', 30);
+INSERT INTO images VALUES (31, 'Edward Bil', 'https://i.imgur.com/ZVnjYsn.jpg', 31);
+INSERT INTO images VALUES (32, 'DAVA', 'https://i.imgur.com/jUW3xWt.jpg', 32);
+INSERT INTO images VALUES (33, 'Comedy Club', 'https://i.imgur.com/qtJzQ9d.jpg', 33);
+INSERT INTO images VALUES (34, 'Илья Соболев', 'https://i.imgur.com/gn1neEs.jpg', 34);
+INSERT INTO images VALUES (35, 'Karina Kasparyants', 'https://i.imgur.com/UdXhAkr.jpg', 35);
+INSERT INTO images VALUES (36, 'Sasha Spilberg', 'https://i.imgur.com/tSw2ljK.jpg', 36);
+INSERT INTO images VALUES (37, 'TheKateClapp', 'https://i.imgur.com/1DTchK8.jpg', 37);
+INSERT INTO images VALUES (38, 'НАСТЯ ИВЛЕЕВА', 'https://i.imgur.com/L2wknoe.jpg', 38);
+INSERT INTO images VALUES (39, 'А4', 'https://i.imgur.com/YogUZeb.jpg', 39);
+
+-- Images of Game Authors --
+
+INSERT INTO images VALUES (40, 'Mr. Marmok', 'https://i.imgur.com/QYduQ0U.jpg', 40);
+INSERT INTO images VALUES (41, 'Kuplinov', 'https://i.imgur.com/Cvi2J9o.jpg', 41);
+INSERT INTO images VALUES (42, 'TheBrainDit', 'https://i.imgur.com/3MxDKpo.jpg', 42);
+INSERT INTO images VALUES (43, 'Coffi Channel', 'https://i.imgur.com/Itbp0AS.jpg', 43);
+INSERT INTO images VALUES (44, 'Jove', 'https://i.imgur.com/WBDSDKE.jpg', 44);
+INSERT INTO images VALUES (45, 'TheWarpath', 'https://i.imgur.com/H7q8lQa.jpg', 45);
+INSERT INTO images VALUES (46, 'EugeneSagaz', 'https://i.imgur.com/GcdqgkX.jpg', 46);
+INSERT INTO images VALUES (47, 'Joe Speen', 'https://i.imgur.com/qxSkx9p.jpg', 47);
+INSERT INTO images VALUES (48, 'Amway921', 'https://i.imgur.com/D1Khnst.jpg', 48);
+
+-- Images of Travel Authors --
+
+INSERT INTO images VALUES (49, 'Alexander Kondrashov', 'https://i.imgur.com/xemZ7Fh.jpg', 49);
+INSERT INTO images VALUES (50, 'ПОЕХАВШИЙ', 'https://i.imgur.com/k9Cxtp1.jpg', 50);
+INSERT INTO images VALUES (51, 'Art Bouquet', 'https://i.imgur.com/kKyOcpN.jpeg', 51);
+INSERT INTO images VALUES (52, 'Elnar Mansurov', 'https://i.imgur.com/4taqNyT.jpg', 52);
+INSERT INTO images VALUES (53, 'Своим Ходом - Виталик и Лиза', 'https://i.imgur.com/zV55nzn.jpg', 53);
+INSERT INTO images VALUES (54, 'Про путешествия Богдан Булычёв', 'https://i.imgur.com/wvCtxS8.jpg', 54);
+INSERT INTO images VALUES (55, 'elivosk', 'https://i.imgur.com/OfZYpoU.jpg', 55);
 
