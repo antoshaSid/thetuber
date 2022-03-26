@@ -70,7 +70,7 @@ INSERT INTO persons VALUES (55, 'elivosk', 'https://www.youtube.com/c/elivosk', 
 
 -- Images of Technical Authors --
 
-INSERT INTO images VALUES (1, 'Wylsacom', 'https://i.imgur.com/tyt8Q4D.jpg', 1);
+INSERT INTO images VALUES (1, 'Wylsacom', 'https://i.imgur.com/yVlz9ZM.jpg', 1);
 INSERT INTO images VALUES (2, 'Ай, Как Просто!', 'https://i.imgur.com/uCulduf.jpg', 2);
 INSERT INTO images VALUES (3, 'BIG GEEK', 'https://i.imgur.com/hU7jujV.jpg', 3);
 INSERT INTO images VALUES (4, 'Стинт', 'https://i.imgur.com/n5B1ghd.jpg', 4);
