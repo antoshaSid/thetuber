@@ -1,7 +1,7 @@
-package com.thetuber.thetuber.service.impls;
+package com.thetuber.thetuber.service.impl;
 
-import com.thetuber.thetuber.dao.PersonRepository;
-import com.thetuber.thetuber.entity.Person;
+import com.thetuber.thetuber.repository.PersonRepository;
+import com.thetuber.thetuber.entity.PersonEntity;
 import com.thetuber.thetuber.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,8 +20,8 @@ public class PersonServiceImpl implements PersonService {
     private PersonRepository personRepository;
 
     @Override
-    public Map<String, List<List<Person>>> getAllPersonsWithContentType() {
-        Map<String, List<List<Person>>> personListWithContentType = new HashMap<>();
+    public Map<String, List<List<PersonEntity>>> getAllPersonsWithContentType() {
+        Map<String, List<List<PersonEntity>>> personListWithContentType = new HashMap<>();
         personListWithContentType.put(
                 TECHNIC_CONTENT.toString(),
                 gridList(personRepository.findPersonByContentTypeOrderByPriority(TECHNIC_CONTENT))

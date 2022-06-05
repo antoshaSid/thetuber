@@ -11,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Person {
+public class PersonEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -44,6 +44,6 @@ public class Person {
     private Country country;
 
     @OneToMany(mappedBy = "person", fetch = FetchType.EAGER)
-    private List<Image> images;
+    private List<ImageEntity> images;
 
 }

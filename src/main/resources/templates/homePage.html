@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
-<!-- TopBar -->
-<script data-cfasync='false' type='text/javascript'
-        src='//p445925.clksite.com/adServe/banners?tid=445925_873246_0&tagid=9'></script>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,11 +17,12 @@
     <!-- Bootstrap CSS -->
     <link th:href="@{https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css}" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link th:href="@{homePage.css}" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" th:href="@{/favicon.png}" />
-    <title>The Tuber - ютубери, які "вбивають"</title>
-    <meta name="description" content="Сторінка для тих, хто досі не усвідомлює, що ваші «улюбленці» вбивають тисячі
-    мирних людей та дітей своєю бездіяльністю і пропагандою">
+    <title>The page of popular YouTubers</title>
+    <meta name="description" content="The page of popular YouTubers">
+
 </head>
 <body>
 <div class="container">
@@ -33,23 +30,16 @@
         <div class="row justify-content-center">
             <div class="col-5 col-md-3 col-xxl-2 px-4 mb-4 text-center pt-2">
                 <a th:href="@{/}">
-                    <img class="d-block w-100" th:src="@{https://i.imgur.com/Bg0DmFB.png}" alt="TheTuber">
+                    <img class="d-block w-100" th:src="@{https://i.imgur.com/fxOBklh.png}" alt="TheTuber">
                 </a>
             </div>
         </div>
         <div class="row">
             <div class="col px-4 text-center pt-2">
                 <div class="col-lg-8 mx-auto">
-                    <p class="lead mb-4">Сторінка для тих, хто досі не усвідомлює, що ваші «улюбленці»
-                        вбивають тисячі мирних людей та дітей своєю бездіяльністю і пропагандою</p>
+                    <p class="lead mb-4">The page of popular YouTubers</p>
                 </div>
             </div>
-        </div>
-
-        <!-- Banner main -->
-        <div class="row d-flex justify-content-center">
-            <script data-cfasync='false' type='text/javascript'
-                    src='//p445925.clksite.com/adServe/banners?tid=445925_873246_4'></script>
         </div>
 
     </header>
@@ -62,31 +52,31 @@
                     <button class="nav-link fs-1 tab-item" id="technic-tab" data-bs-toggle="tab"
                             data-bs-target="#technic"
                             type="button"
-                            role="tab" aria-controls="technic" aria-selected="true">ТЕХНОЛОГІЇ
+                            role="tab" aria-controls="technic" aria-selected="true">TECHNOLOGY
                     </button>
                 </li>
                 <li class="nav-item px-4" role="presentation">
                     <button class="nav-link fs-1 tab-item" id="auto-tab" data-bs-toggle="tab" data-bs-target="#auto"
                             type="button"
-                            role="tab" aria-controls="auto" aria-selected="false">АВТО
+                            role="tab" aria-controls="auto" aria-selected="false">CARS
                     </button>
                 </li>
                 <li class="nav-item px-4" role="presentation">
                     <button class="nav-link fs-1 tab-item" id="game-tab" data-bs-toggle="tab" data-bs-target="#game"
                             type="button"
-                            role="tab" aria-controls="game" aria-selected="false">ІГРИ
+                            role="tab" aria-controls="game" aria-selected="false">GAMES
                     </button>
                 </li>
                 <li class="nav-item px-4" role="presentation">
                     <button class="nav-link fs-1 tab-item" id="entertainment-tab" data-bs-toggle="tab"
                             data-bs-target="#entertainment"
-                            type="button" role="tab" aria-controls="entertainment" aria-selected="false">РОЗВАГИ
+                            type="button" role="tab" aria-controls="entertainment" aria-selected="false">FUN
                     </button>
                 </li>
                 <li class="nav-item px-4" role="presentation">
                     <button class="nav-link fs-1 tab-item" id="travelling-tab" data-bs-toggle="tab"
                             data-bs-target="#travelling"
-                            type="button" role="tab" aria-controls="travelling" aria-selected="false">ПОДОРОЖІ
+                            type="button" role="tab" aria-controls="travelling" aria-selected="false">TRAVEL
                     </button>
                 </li>
             </ul>
@@ -243,18 +233,8 @@
                     </div>
                 </div>
 
-                <!-- Bottom banner -->
-                <div class="row d-flex justify-content-center">
-                    <script data-cfasync='false' type='text/javascript'
-                            src='//p445925.clksite.com/adServe/banners?tid=445925_873246_3'></script>
-                </div>
-
             </div>
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-
-                <!-- Footer Ads -->
-                <script data-cfasync='false' type='text/javascript'
-                        src='//p445925.clksite.com/adServe/banners?tid=445925_873246_5&type=footer&size=37'></script>
 
                 <div class="col-md-4 d-flex align-items-center">
                     <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
@@ -262,7 +242,7 @@
                             <use xlink:href="#bootstrap"></use>
                         </svg>
                     </a>
-                    <span class="text-muted">© 2022 Рускій ваєнний карабль - ІДІ НАХУЙ</span>
+                    <span class="text-muted">© 2022 Anton Sidliar. All rights reserved.</span>
                 </div>
 
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -287,7 +267,6 @@
 
     </main>
 </div>
-
 
 <!--Bootstrap scripts-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
