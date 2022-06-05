@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Data
 @RequiredArgsConstructor
 @NoArgsConstructor
-public class Image {
+public class ImageEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,5 +25,5 @@ public class Image {
 
     @ManyToOne
     @JoinColumn(name = "person_id")
-    private Person person;
+    private PersonEntity person;
 }
